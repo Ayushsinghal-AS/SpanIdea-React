@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  
+   html {
+    background: #faf7f2;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .bg {
+    background-image: url(https://spanidea.com/wp-content/uploads/2015/11/Home-banner.jpg);
+    width: 100%;
+    height:650px;
+    background-repeat: no-repeat;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  .navbar1 {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+  }
+  
+  .navbar1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown1 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown1 .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar1 a:hover, .dropdown1:hover .dropbtn, .dropbtn:focus {
+    background-color:aqua;
+  }
+  
+  .dropdown1-content {
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown1-content a {
+    float:none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown1-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+  .img1:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .back{
+      
+      opacity: 0.4;
+      width:100%;
+      height: 30%;
+      text-decoration: none;
+      text-align: center;
+  }
+  .img2{
+      margin: auto;
+      opacity: 0.5;
+  }
+  @keyframes animatedBackground {
+    from {
+      background-size: cover;
+      background-position: 50% 22%;
+    }
+    to {
+      background-size: cover;
+      background-position: 100% 22%;
+    }
+}
+
+.about {
+    width:100%;
+    height:250px;
+    background-color:#faf7f2;
+    text-align:left;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.pro {
+    width:100%;
+    height:350px;
+    background-color:#f9f9f9;
+    position: relative;
+}
+.blog-title {
+    text-align: center;
+    padding-right: 25%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .Cream {
+    background-color: aliceblue;
+  }
+
+  .column2 {
+    float: left;
+    width: 100%;
+  }
+  
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .bg2 {
+    background-image: url("https://spanidea.com/wp-content/uploads/2021/07/careers-2.jpg");
+    background-position: 50% 80px;
+    width: 100%;
+    height:600px;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-decoration: white;
+  }
+
+  .text2 {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+
+  .text3{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    top: -100%;
+    left: 0;
+    height: 300%;
+    width: 100%;
+    border-radius: 100%;
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  .bg3 {
+    background-image: url(https://media-exp2.licdn.com/dms/image/C561BAQEby3C-0K-Gag/company-background_10000/0/1645705698616?e=2147483647&v=beta&t=NZdqbcJoSr098OuWjL2useQrw0gDfcMjJXZdAkijMiE);
+    width: 100%;
+    height:800px;
+    background-repeat: no-repeat;
+  }
+  .text3{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  .foot {
+    text-align: center;
+    padding: 100px 0 0 25px;
+    width: 50%;
+    height: 200px;
+  }
